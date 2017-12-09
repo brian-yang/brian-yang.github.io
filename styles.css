@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Biryani');
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    /* overflow-x: hidden; */
+
+    font-family: Biryani, "Cambria", sans-serif;
+}
+
+.container {
+    min-height: 100%;
+}
+
+#intro {
+    background:
+      /*linear-gradient(
+        rgba(62, 102, 168, 0.75),
+        rgba(62, 102, 168, 0.75)
+        ),*/
+      url("images/background.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.title {
+    position: relative;
+    padding-top: 375px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: Biryani, "Cambria", sans-serif;
+    /* color:#00AEEF; */
+    color: black;
+}
+
+.subtitle {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.content {
+  padding-left: 50px;
+}
+
+.icons {
+    margin-top: 15px;
+    text-align: center;
+    display: block;
+}
+
+.icons .language {
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    height: 150px;
+}
+
+.icons #github {
+    height: 50px;
+    width: 50px;
+}
+
+.icons #linkedin {
+    padding-left: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+/* footer */
+.footer {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: left;
+    font-family: sans-serif;
+    color: #8d9093;
+}
+
+.footer-basic-centered{
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    font: normal 18px sans-serif;
+
+    padding: 45px;
+}
+
+@media (max-width: 600px) {
+    .footer-basic-centered{
+	      padding: 35px;
+    }
+}
+/* footer */
